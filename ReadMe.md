@@ -13,7 +13,7 @@ Follow [this]() link to try out demo.
 
 ![]()
 
-When you draw something one the provided whiteboard, and choose to predict the doodle. Our ML model tries to provide it's 6 best guesses to what the object is. 
+When you draw something on the provided whiteboard, and choose to predict the doodle. Our ML model provides it's 6 best guesses to what the object is. 
 
 Our main motive was to provide a __one-click__ solution to access well made pictures from reasonable scribbles. Our inspiration was from all the online lectures we had to sit through during _lockdown_ where drawing on a computer with mouse was a hard task.
 
