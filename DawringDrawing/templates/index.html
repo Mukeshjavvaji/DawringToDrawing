@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DawringToDrawing</title>
+        <link href="{% static 'styles.css' %}" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <form action="predict" method="post">
+                {% csrf_token %}
+                <canvas id="canvas"></canvas>
+                <button class='button-19' id="predict_me">Predict</button>
+                <button class='button-19' type="reset" id="clear">Clear</button>
+            </form>
+            <div class="container-2">
+                <div class="container-3"> 
+                    <img src="static\{{ predictions.1 }}" alt="Prediction-1">
+                    <img src="static\{{ predictions.2 }}" alt="Prediction-2">
+                </div>
+                <div class="container-3"> 
+                    <img src="static\{{ predictions.3 }}" alt="Prediction-3">
+                    <img src="static\{{ predictions.4 }}" alt="Prediction-4">
+                </div>
+                <div class="container-3"> 
+                    <img src="static\{{ predictions.5 }}" alt="Prediction-5">
+                    <img src="static\{{ predictions.6 }}" alt="Prediction-6">
+                </div><br>
+                
+            </div>
+        </div>
+        <script src="{% static 'canvas.js' %}"></script>
+    </body>
+</html>
