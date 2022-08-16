@@ -5,7 +5,6 @@ from django.conf import settings
 import cv2
 import tensorflow as tf
 import numpy as np
-import json
 
 # Create your views here.
 
