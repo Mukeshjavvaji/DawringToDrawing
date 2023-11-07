@@ -1,6 +1,8 @@
 # Dawring to Drawing
 
+<!---
 Live Demo: [dawringtodrawings.herokuapp.com](http://dawringtodrawings.herokuapp.com/). P.S. If the link is not working, the rate limit for the day has been exhausted.
+-->
 
 A server side Machine-Learning model that can recognize a drawing across 50 million drawings of 345 categories. Use our tool to convert rookie __Dawrings__ to Computer Recognizable __Drawings__ with a click of a button.
 
@@ -8,9 +10,11 @@ A server side Machine-Learning model that can recognize a drawing across 50 mill
 
 ---
 
-## Live Demo
+## Take a Peek!
 
+<!---
 Follow [this](http://dawringtodrawings.herokuapp.com/) link to try out demo. P.S. If the link is not working, the rate limit for the day has been exhausted.
+-->
 
 ![DawringDrawing](./assets/DawringDrawing.gif)
 
@@ -26,4 +30,6 @@ We created this project out of interest. Hopefully our idea resonates with any v
 
 - Special thanks to Google _quickdraw_ and their expansive [dataset](https://quickdraw.withgoogle.com/data), which was bane to our _RAM_ but boon to our outcome. Without whom, this project would'nt be possible.
 
+<!---
 - Thanks to [Heroku](https://www.heroku.com/) that were kind enough to host our backyard project for free.
+-->
